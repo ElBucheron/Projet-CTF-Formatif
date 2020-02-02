@@ -12,7 +12,7 @@ If not running:
 # service docker start
 ```
 
-Then run the docker:
+Then run the docker from the folder CTFd:
 ```
 # docker-compose up
 ```
