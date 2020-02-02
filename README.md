@@ -3,11 +3,16 @@
 ## To start the CTFd docker
 
 Make sure that the docker service is up:
-`# service --status-all`
+```
+# service --status-all
+```
 
 If not running:
-`# service docker start`
+```
+# service docker start
+```
 
 Then run the docker:
-`# docker-compose up`
-
+```
+# docker-compose up
+```
