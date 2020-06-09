@@ -1,0 +1,9 @@
+[submodule "Formation/themes/themes/hello-friend-ng"]
+	path = Formation/themes/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "Formation/themes/hugo-theme-docdock"]
+	path = Formation/themes/hugo-theme-docdock
+	url = https://github.com/vjeantet/hugo-theme-docdock.git
+[submodule "Formation/themes/hugo-book"]
+	path = Formation/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
