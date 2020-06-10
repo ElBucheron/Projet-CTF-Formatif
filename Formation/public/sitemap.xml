@@ -3,56 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/system/registres/</loc>
+    <loc>/system/registres/</loc>
     <lastmod>2020-02-26T13:58:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/system/</loc>
+    <loc>/system/</loc>
     <lastmod>2020-02-26T13:58:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/system/hash/</loc>
+    <loc>/system/hash/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/web/html/</loc>
+    <loc>/web/html/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/reseau/ip/</loc>
+    <loc>/reseau/ip/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/reseau/</loc>
+    <loc>/reseau/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/web/</loc>
+    <loc>/web/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/search/</loc>
+    <loc>/search/</loc>
     <lastmod>2017-10-19T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

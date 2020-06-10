@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reseaus on CTF Formatif</title>
-    <link>https://example.com/reseau/</link>
+    <link>/reseau/</link>
     <description>Recent content in Reseaus on CTF Formatif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Feb 2020 15:14:53 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/reseau/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/reseau/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IP</title>
-      <link>https://example.com/reseau/ip/</link>
+      <link>/reseau/ip/</link>
       <pubDate>Sun, 02 Feb 2020 15:14:53 +0000</pubDate>
       
-      <guid>https://example.com/reseau/ip/</guid>
+      <guid>/reseau/ip/</guid>
       <description></description>
     </item>
     
