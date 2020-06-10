@@ -1,4 +1,4 @@
-baseURL = "/var/www/html/"
+baseURL = "/var/www/html"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
