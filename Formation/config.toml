@@ -1,4 +1,4 @@
-# baseURL = ""
+baseURL = "/Projet/Projet-CTF-Formation/Formation"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -33,7 +33,7 @@ enableMissingTranslationPlaceholders = false
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
     title = "CTF Formatif"
-    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+    # images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
     # Theme color

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webs on CTF Formatif</title>
-    <link>/web/</link>
-    <description>Recent content in Webs on CTF Formatif</description>
+    <title>Web on CTF Formatif</title>
+    <link>/Projet/Projet-CTF-Formation/Formation/web/</link>
+    <description>Recent content in Web on CTF Formatif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 15:14:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
     
-	<atom:link href="/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Projet/Projet-CTF-Formation/Formation/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML</title>
-      <link>/web/html/</link>
+      <link>/Projet/Projet-CTF-Formation/Formation/web/html/</link>
       <pubDate>Sun, 02 Feb 2020 15:14:53 +0000</pubDate>
       
-      <guid>/web/html/</guid>
+      <guid>/Projet/Projet-CTF-Formation/Formation/web/html/</guid>
       <description></description>
     </item>
     
