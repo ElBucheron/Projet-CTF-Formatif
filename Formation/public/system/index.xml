@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>System on CTF Formatif</title>
-    <link>/system/</link>
-    <description>Recent content in System on CTF Formatif</description>
+    <title>Systems on CTF Formatif</title>
+    <link>https://example.com/system/</link>
+    <description>Recent content in Systems on CTF Formatif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Feb 2020 13:58:15 +0000</lastBuildDate>
     
-	<atom:link href="/system/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/system/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Registre</title>
-      <link>/system/registres/</link>
+      <link>https://example.com/system/registres/</link>
       <pubDate>Wed, 26 Feb 2020 13:58:15 +0000</pubDate>
       
-      <guid>/system/registres/</guid>
+      <guid>https://example.com/system/registres/</guid>
       <description>La base de registre est un élément fondamental du système. C&amp;rsquo;est une gigantesque base de données qui peut atteindre plusieurs dizaines de méga. Afin de faciliter la gestion de cette base, celle ci est organisée en 5 clés principales, elles mêmes divisées en sous clés.
 Les 5 clés et leurs fonctions HKEY_CLASS_ROOT : Cette clé gère les extensions des fichiers ainsi que les liaisons avec les logiciels et serveurs ActiveX. Toutes les extensions des fichiers et leur programme correspondant sont gérés ici.</description>
     </item>
     
     <item>
       <title>Hash</title>
-      <link>/system/hash/</link>
+      <link>https://example.com/system/hash/</link>
       <pubDate>Sun, 02 Feb 2020 15:14:53 +0000</pubDate>
       
-      <guid>/system/hash/</guid>
+      <guid>https://example.com/system/hash/</guid>
       <description>La somme de contrôle (Hash) La version basique d’un tel mécanisme est appelée “somme de contrôle”.
 Le but d’une somme de contrôle est en quelque sorte d’être “l’empreinte” d’une donnée (attention, cette “empreinte” n’est pas une signature et ne garantit pas pour autant l’identité). Un exemple très simplifié serait de compter le nombre de lettres dans un message et de rajouter ce nombre à la fin dudit message. De cette manière, un destinataire peut immédiatement vérifier que le message n’a pas été coupé par erreur.</description>
     </item>

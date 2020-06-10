@@ -1,17 +1,14 @@
-+++
-title = "Home"
-description = ""
-
-type = "homepage"
-+++
+---
+date: 2017-10-19T15:26:15Z
+lastmod: 2019-10-26T15:26:15Z
+publishdate: 2018-11-23T15:26:15Z
+title: Home
+---
 
 # CTF Formatif
-Cette plateforme permet de se former sur certaines technologies et appliquer les connaissances acquises  sur une partie CTF (Capture The Flag).
 
+## Sujets couvert
 
-## Sujet couvert
-
-* [Systeme]({{%relref "system/_index.md" %}}) - a decrire
-* [Reseau]({{%relref "reseau/_index.md" %}}) - a decrire
-* [Web]({{%relref "web/_index.md" %}}) - a decrire
-
+* Systeme
+* Reseau
+* Web
