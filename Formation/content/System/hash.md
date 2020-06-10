@@ -1,7 +1,8 @@
 ---
 title: "Hash"
 date: 2020-02-02T15:14:53Z
-draft: false
+
+type: "page"
 ---
 
 ## La somme de contrôle (Hash)
