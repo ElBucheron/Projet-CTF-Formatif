@@ -3,56 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/var/www/html/system/registres/</loc>
+    <loc>/system/registres/</loc>
     <lastmod>2020-02-26T13:58:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/system/hash/</loc>
+    <loc>/system/hash/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/web/html/</loc>
+    <loc>/web/html/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/reseau/ip/</loc>
+    <loc>/reseau/ip/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/</loc>
+    <loc>/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/search/</loc>
+    <loc>/search/</loc>
     <lastmod>2017-10-19T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/reseau/</loc>
+    <loc>/reseau/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/system/</loc>
+    <loc>/system/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/web/</loc>
+    <loc>/web/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/var/www/html/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/var/www/html/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
