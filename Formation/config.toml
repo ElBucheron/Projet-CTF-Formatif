@@ -1,4 +1,4 @@
-baseURL = "/Projet/Projet-CTF-Formation/Formation"
+baseURL = "/var/www/html/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"

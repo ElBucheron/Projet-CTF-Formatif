@@ -3,56 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/system/registres/</loc>
+    <loc>/var/www/html/system/registres/</loc>
     <lastmod>2020-02-26T13:58:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/system/hash/</loc>
+    <loc>/var/www/html/system/hash/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/web/html/</loc>
+    <loc>/var/www/html/web/html/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/reseau/ip/</loc>
+    <loc>/var/www/html/reseau/ip/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/</loc>
+    <loc>/var/www/html/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/search/</loc>
+    <loc>/var/www/html/search/</loc>
     <lastmod>2017-10-19T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/reseau/</loc>
+    <loc>/var/www/html/reseau/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/system/</loc>
+    <loc>/var/www/html/system/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/web/</loc>
+    <loc>/var/www/html/web/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/categories/</loc>
+    <loc>/var/www/html/categories/</loc>
   </url>
   
   <url>
-    <loc>/Projet/Projet-CTF-Formation/Formation/tags/</loc>
+    <loc>/var/www/html/tags/</loc>
   </url>
   
 </urlset>
