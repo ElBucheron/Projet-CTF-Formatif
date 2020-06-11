@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/system/files/</loc>
+    <lastmod>2020-03-22T13:58:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/system/registres/</loc>
     <lastmod>2020-02-26T13:58:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/reseau/ip_address/</loc>
+    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +24,6 @@
   
   <url>
     <loc>/web/html/</loc>
-    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reseau/ip/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
