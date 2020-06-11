@@ -14,7 +14,7 @@
 
 {{- $cpage := (.Scratch.Get "current") }}
 
-<ul class="children children-{{$style}}">
+<ul>
 	{{- .Scratch.Set "pages" $cpage.Pages }}
     {{- if $cpage.Sections}}
 	    {{- .Scratch.Set "pages" ($cpage.Pages | union $cpage.Sections) }}
@@ -49,11 +49,11 @@
 	{{- $numn := add $num $.count }}
 
 	{{- (printf "<h%d>" $numn)|safeHTML}}
-		<a href="{{.RelPermalink}}" >{{ .Title }}</a>
+		<h2><a href="{{.RelPermalink}}" >{{ .Title }}</a></h2>
 	{{- (printf "</h%d>" $numn)|safeHTML}}
 {{- else}}
 	{{- (printf "<%s>" $.style)|safeHTML}}
-		<a href="{{.RelPermalink}}" >{{ .Title }}</a>
+		<h2><a href="{{.RelPermalink}}" >{{ .Title }}</a></h2>
 	{{- (printf "</%s>" $.style)|safeHTML}}
 {{- end}}
 
@@ -63,9 +63,9 @@
 
 			{{- if $.description}}
 				{{- if .Description}}
-<p>{{.Description}}</p>
+<em style="margin-left: 3em;">{{.Description}}</em>
 				{{- else}}
-<p>{{.Summary}}</p>
+<em style="margin-left: 3em;">{{.Summary}}</em>
 				{{- end}}
 			{{- end}}
 </span>

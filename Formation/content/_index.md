@@ -5,12 +5,10 @@ publishdate: 2018-11-23T15:26:15Z
 title: Home
 ---
 
-# <center>CTF Formatif</center>
-
 ![Logo](/images/logo.png "logo")
+
+L'objetif de cette plateforme est de vous aider à élever vos connaissance, plus on va haut et plus l'observation est simple !
 
 ## Sujets couvert
 
-* Systeme
-* Reseau
-* Web
+{{%children style="card" description="flase" %}}
