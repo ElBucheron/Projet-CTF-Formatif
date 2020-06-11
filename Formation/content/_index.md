@@ -7,6 +7,8 @@ title: Home
 
 # CTF Formatif
 
+![Logo](/images/logo.png "logo")
+
 ## Sujets couvert
 
 * Systeme

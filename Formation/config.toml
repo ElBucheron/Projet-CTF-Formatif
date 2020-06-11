@@ -1,7 +1,7 @@
 baseURL = "/"
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
 title = "CTF Formatif"
 theme = "hugo-theme-techdoc"
 
@@ -17,7 +17,7 @@ enableMissingTranslationPlaceholders = false
     # Source Code repository section
     description = ""
     github_repository = ""
-    version = "0.1.2"
+    version = "0.1.4"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
@@ -33,7 +33,7 @@ enableMissingTranslationPlaceholders = false
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
     title = "CTF Formatif"
-    # images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+    # images = ["images/logo.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
     # Theme color
