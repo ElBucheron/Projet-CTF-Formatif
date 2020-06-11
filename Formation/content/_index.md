@@ -5,7 +5,7 @@ publishdate: 2018-11-23T15:26:15Z
 title: Home
 ---
 
-# CTF Formatif
+# <center>CTF Formatif</center>
 
 ![Logo](/images/logo.png "logo")
 
