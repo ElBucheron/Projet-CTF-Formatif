@@ -86,7 +86,7 @@ enableMissingTranslationPlaceholders = false
         ordered = false
 
 [outputs]
-    home = ["HTML", "RSS", "Algolia"]
+    home = ["HTML", "RSS", "JSON"]
 
 # Algolia Search configure section
 [outputFormats.Algolia]

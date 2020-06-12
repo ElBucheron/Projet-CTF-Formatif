@@ -183,6 +183,115 @@ puts <span style="color:#e6db74">&#39;The best way to log and share programmers 
 <a class="nav nav-next" href="/templates/md_tableofcontent/" title="Table of Contents">Next - Table of Contents <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer></footer>
 </main><div class="sidebar">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script type="text/javascript">
+
+
+var idx, searchInput, searchResults = null
+var documents = []
+
+function renderSearchResults(results){
+
+    if (results.length > 0) {
+
+        
+        if (results.length > 9){
+            results = results.slice(0,10)
+        }
+
+        
+        searchResults.innerHTML = ''
+
+        
+        results.forEach(result => {
+        
+            
+            var article = document.createElement('article')
+            article.innerHTML = `
+            <a href="${result.ref}"><h3 class="title">${documents[result.ref].title}</h3></a>
+            <p><a href="${result.ref}">${result.ref}</a></p>
+            <br>
+            `
+            searchResults.appendChild(article)
+        })
+
+    
+    } else {
+        searchResults.innerHTML = '<p>No results found.</p>'
+    }
+}
+
+function registerSearchHandler() {
+
+    
+    searchInput.oninput = function(event) {
+
+        
+        if (searchInput.value == '') {
+            
+            searchResults.innerHTML = ''
+        } else {
+            
+            
+            var query = event.target.value
+
+            
+            var results = idx.search(query + '*')
+
+            
+            renderSearchResults(results)
+        }
+    }
+
+    
+    searchInput.focus()
+    searchInput.placeholder = ''
+}
+
+window.onload = function() {
+
+    
+    searchInput = document.getElementById('search-input')
+    searchResults = document.getElementById('search-results')
+
+    
+    fetch('/index.json', {
+        method: 'get'
+    }).then(
+        res => res.json()
+    ).then(
+        res => {
+
+            
+            idx = lunr(function() {
+                this.ref('url')
+                this.field('title')
+                this.field('content')
+
+                res.forEach(function(doc) {
+                    this.add(doc)
+                    documents[doc.url] = {
+                        'title': doc.title,
+                        'content': doc.content,
+                    }
+                }, this)
+            })
+
+            
+            registerSearchHandler()
+        }
+    ).catch(
+        err => {
+            searchResults.innerHTML = `<p>${err}</p>`
+        }
+    )
+}
+</script>
+<input style="margin: 5px;"  id="search-input" type="text" size="47%"  placeholder="Loading..." name="search" value="Rechercher">
+
+<section id="search-results" class="search"></section>
+
+
 
 <nav class="slide-menu">
 <ul>
