@@ -68,18 +68,18 @@
   </url>
   
   <url>
-    <loc>/web/html/</loc>
+    <loc>/web/html_php/</loc>
+    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/reseau/wireshark/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/search/</loc>
-    <lastmod>2017-10-19T15:26:15+00:00</lastmod>
   </url>
   
   <url>

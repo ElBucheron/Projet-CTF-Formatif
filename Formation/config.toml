@@ -70,14 +70,9 @@ enableMissingTranslationPlaceholders = false
 # See https://gohugo.io/content-management/menus/
 [menu]
     [[menu.main]]
-        name = "Rechercher"
-        url = "/search"
-        weight = 1
-
-    [[menu.main]]
         name = "CTF"
         url = ""
-        weight = 2
+        weight = 1
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/

@@ -12,12 +12,24 @@
     
     
     <item>
-      <title>HTML</title>
-      <link>/web/html/</link>
+      <title>HTML/CSS - PHP</title>
+      <link>/web/html_php/</link>
       <pubDate>Sun, 02 Feb 2020 15:14:53 +0000</pubDate>
       
-      <guid>/web/html/</guid>
-      <description></description>
+      <guid>/web/html_php/</guid>
+      <description>Table of contents   HTML &amp;amp; CSS
+1.1 Balises &amp;amp; Attributs
+_ Balises
+_ Attributs
+1.2 Balises fréquentes
+  PHP
+2.1 Structure du PHP
+2.2 Formulaires
+2.3 Methode : GET vs POST
+3. JavaScript
+  Références
+   HTML &amp;amp; CSS  HTML
+HyperText Markup Language a fait son apparition dès 1991 lors du lancement du Web. Son rôle est de gérer et organiser le contenu.</description>
     </item>
     
   </channel>

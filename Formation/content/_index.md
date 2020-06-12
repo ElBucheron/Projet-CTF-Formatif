@@ -5,7 +5,11 @@ publishdate: 2018-11-23T15:26:15Z
 title: Home
 ---
 
-![Logo](/images/logo.png "logo")
+{{< image
+  src="/images/logo.png"
+  alt="Logo"
+  size=50%
+>}}
 
 L'objetif de cette plateforme est de vous aider à élever vos connaissance, plus on va haut et plus l'observation est simple !
 

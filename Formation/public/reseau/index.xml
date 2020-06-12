@@ -20,5 +20,16 @@
       <description>Description Une Adresse IP (Internet Protocol) est un numéro d&#39;identification qui est attribué de façon permanente ou provisoire à chaque périphérique relié à un réseau informatique qui utilise l&#39;Internet Protocol. Cette adresse est assignée soit individuellement par l&#39;administrateur du réseau local dans le sous-réseau correspondant, soit automatiquement via le protocole DHCP[1]. Si l&#39;ordinateur dispose de plusieurs interfaces, chacune dispose d&#39;une adresse IP spécifique. Une interface peut également disposer de plusieurs adresses IP.</description>
     </item>
     
+    <item>
+      <title>Wireshark</title>
+      <link>/reseau/wireshark/</link>
+      <pubDate>Sun, 02 Feb 2020 15:14:53 +0000</pubDate>
+      
+      <guid>/reseau/wireshark/</guid>
+      <description>Wireshark est un outil très utilisé en réseau, il permet de surveiller les paquets de données échangés sur un réseau.
+ C&amp;rsquo;est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac.
+ La documentation complète de l&amp;rsquo;outil est disponible ici</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,13 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $width := .Get "size" }}
+
+<div style="text-align: center;">
+  <img
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    width="{{ $width }}"
+    decoding="async"
+  />
+</div>
+
