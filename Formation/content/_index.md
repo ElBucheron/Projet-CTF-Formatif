@@ -6,6 +6,6 @@ type: page
 
 L'objetif de cette plateforme est de vous aider à élever vos connaissance, plus on va haut et plus l'observation est simple !
 
-## Sujets couvert
+## Sujets couverts
 
 {{%children style="card" description="flase" %}}
