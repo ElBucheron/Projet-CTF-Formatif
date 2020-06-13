@@ -1,5 +1,7 @@
 # Projet-CTF-Formatif
 
+---
+
 ## Automatic setup
 
 If the requirements are not fully satisfied
@@ -12,6 +14,26 @@ Then to start all the services and setup the two plateforms
 # ./setup.sh
 ```
 
+/!\ When you run `./setup` you delete everything of the `/var/www/html` folder, be carefull to save it if you have already something there /!\
+
+### Learning Add/Modify content
+
+To add/modify content of the learning platform you need to go in the directory `Formation/content` and modify the folders and files present in the folders, juste be carefull to have a header like this on the markdown (.md) pages
+```
+---
+title: "Hash"
+date: 2020-02-02T15:14:53Z
+draft: false
+---
+```
+And then add all the text and images as you want under the markdown format.
+
+When everything is modified, just run
+```
+# ./update.sh
+```
+
+---
 
 ## Manual setup
 
