@@ -70,7 +70,7 @@ enableMissingTranslationPlaceholders = false
 # See https://gohugo.io/content-management/menus/
 [menu]
     [[menu.main]]
-        name = "CTF"
+        name = "Climbers CTF"
         url = ""
         weight = 1
 
