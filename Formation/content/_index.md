@@ -4,7 +4,7 @@ title: Home
 type: page
 ---
 
-{{< panel title="" >}} L'objetif de cette plateforme est de vous aider à élever vos connaissance, plus on va haut et plus l'observation est simple ! {{< /panel >}}
+{{< panel title="" >}} L'objetif de cette plateforme est de vous aider à élever vos connaissance, plus on va haut et plus l'observation y est simple ! {{< /panel >}}
 
 ## Sujets couverts
 
