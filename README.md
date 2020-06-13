@@ -1,6 +1,21 @@
 # Projet-CTF-Formatif
 
-## To start the CTFd docker
+## Automatic setup
+
+If the requirements are not fully satisfied
+```
+# ./install-requirements.sh
+```
+
+Then to start all the services and setup the two plateforms
+```
+# ./setup.sh
+```
+
+
+## Manual setup
+
+### To start the CTFd docker
 
 Make sure that the docker service is up
 ```
@@ -18,7 +33,7 @@ Then run the docker from the folder CTFd
 ```
 
 
-## To start the Formation docker
+### To start the Formation docker
 
 Make sure hugo framework is installed
 ```
@@ -29,3 +44,7 @@ Then start the server from the folder Formation
 ```
 # hugo server
 ```
+
+It will launch the learning platform on the address `localhost:1313`
+
+Or if you prefer you can copy the content of the directory `Formation/public` in `/var/www/html` of apache2
