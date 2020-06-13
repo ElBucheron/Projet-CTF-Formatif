@@ -32,4 +32,24 @@ Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code 
 
 
 
+{{< image
+  src="/images/wireshark-paquets.png"
+  alt="Interface Wireshark"
+>}}
+
+
+{{< image
+  src="/images/wireshark-detail.png"
+  alt="Interface Wireshark"
+  size="50%"
+>}}
+
+
+{{< image
+  src="/images/wireshark-hexa.png"
+  alt="Interface Wireshark"
+>}}
+
+
+
 La documentation complète de l'outil est disponible [ici](https://www.wireshark.org/docs/)
