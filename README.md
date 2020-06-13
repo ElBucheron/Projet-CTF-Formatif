@@ -2,6 +2,8 @@
 
 ---
 
+/!\ If you're not the `root` user, be sure to use `sudo` for most of the commands
+
 ## Automatic setup
 
 If the requirements are not fully satisfied
