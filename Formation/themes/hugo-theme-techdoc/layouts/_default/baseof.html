@@ -8,10 +8,17 @@
 {{- partial "prepend-body.html" . -}}
 <div class="container">
 
+<div style="display:flex;">
+<div style="flex: auto;">
 {{- partial "notification.html" . -}}
 {{- partial "site-header.html" . -}}
 {{- partial "global-menu.html" . -}}
+</div>
 
+<div style="background: black;">
+<img style="float:right; margin-right: 10px;" src="/images/logo-blanc.png" alt="Logo" width="100px">
+</div>
+</div>
 
 <div class="content-container">
 <main>

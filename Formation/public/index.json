@@ -39,7 +39,7 @@
     {
         "url": "/reseau/",
         "title": "Reseau",
-        "content": "  Adresses IP Description Une Adresse IP (Internet Protocol) est un numéro d\u0026rsquo;identification qui est attribué de façon permanente ou provisoire à chaque périphérique relié à un réseau informatique qui utilise l\u0026rsquo;Internet Protocol. Cette adresse est assignée soit individuellement par l\u0026rsquo;administrateur du réseau local dans le sous-réseau correspondant, soit automatiquement via le protocole DHCP[1]. Si l\u0026rsquo;ordinateur dispose de plusieurs interfaces, chacune dispose d\u0026rsquo;une adresse IP spécifique. Une interface peut également disposer de plusieurs adresses IP. \n Wireshark Wireshark est un outil très utilisé en réseau, il permet de surveiller les paquets de données échangés sur un réseau. C’est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. La documentation complète de l’outil est disponible ici \n "
+        "content": "  Adresses IP Description Une Adresse IP (Internet Protocol) est un numéro d\u0026rsquo;identification qui est attribué de façon permanente ou provisoire à chaque périphérique relié à un réseau informatique qui utilise l\u0026rsquo;Internet Protocol. Cette adresse est assignée soit individuellement par l\u0026rsquo;administrateur du réseau local dans le sous-réseau correspondant, soit automatiquement via le protocole DHCP[1]. Si l\u0026rsquo;ordinateur dispose de plusieurs interfaces, chacune dispose d\u0026rsquo;une adresse IP spécifique. Une interface peut également disposer de plusieurs adresses IP. \n Wireshark Wireshark est un outil très utilisé en réseau, il permet de surveiller les paquets de données échangés sur un réseau. C’est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. Capable de lire des données sur les réseaux Ethernet, Wifi (IEEE 802.11), PPP, Loopback, FTTH et tout autres réseau utilisant les protocoles IP et il utilise pcap pour capturer les paquets. Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code couleur: \n "
     }
     
     , 
@@ -102,7 +102,7 @@
     {
         "url": "/reseau/wireshark/",
         "title": "Wireshark",
-        "content": "Wireshark est un outil très utilisé en réseau, il permet de surveiller les paquets de données échangés sur un réseau.\n C\u0026rsquo;est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac.\n La documentation complète de l\u0026rsquo;outil est disponible ici\n"
+        "content": "Wireshark est un outil très utilisé en réseau, il permet de surveiller les paquets de données échangés sur un réseau.\n C\u0026rsquo;est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. Capable de lire des données sur les réseaux Ethernet, Wifi (IEEE 802.11), PPP, Loopback, FTTH et tout autres réseau utilisant les protocoles IP et il utilise pcap pour capturer les paquets.\n Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code couleur:\n   Couleur Signification     Mauve clair traffic TCP   Gris paquet TCP avec un drapeau SYN ou FIN   Rouge paquet TCP avec un drapeau RTS   Noire paquet TCP avec un problème(souvent un numéro de séquence désordonné)   Vert clair trafic HTTP   Bleu clair trafic DNS ou UDP    La documentation complète de l\u0026rsquo;outil est disponible ici\n"
     }
     
     , 

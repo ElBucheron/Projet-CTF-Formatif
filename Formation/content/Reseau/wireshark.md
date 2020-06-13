@@ -12,13 +12,24 @@ Wireshark est un outil très utilisé en réseau, il permet de surveiller les pa
   alt="Logo Wireshark"
 >}}
 
-C'est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac.
+C'est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. Capable de lire des données sur les réseaux Ethernet, Wifi (IEEE 802.11), PPP, Loopback, FTTH et tout autres réseau utilisant les protocoles IP et il utilise pcap pour capturer les paquets.
 
 {{< image
-  src="https://www.wireshark.org/docs/wsug_html/wsug_graphics/ws-main.png"
-  alt="Wireshark"
-  size=80%
+  src="/images/wireshark-interface.png"
+  alt="Interface Wireshark"
 >}}
+
+Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code couleur:
+
+|Couleur     |Signification|
+|------------|-------------|
+|Mauve clair |traffic TCP  |
+|Gris        |paquet TCP avec un drapeau SYN ou FIN|
+|Rouge       |paquet TCP avec un drapeau RTS|
+|Noire       |paquet TCP avec un problème(souvent un numéro de séquence désordonné)|
+|Vert clair  |trafic HTTP  |
+|Bleu clair  |trafic DNS ou UDP|
+
 
 
 La documentation complète de l'outil est disponible [ici](https://www.wireshark.org/docs/)
