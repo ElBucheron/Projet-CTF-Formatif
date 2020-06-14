@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "[!] Updating content..."
-cd Formation
+cd Learning
 hugo
 echo "[+] Content uploaded successfully"
+cd ..
