@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "CTF Formatif"
+title = "CTF Formatif - Learning"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
