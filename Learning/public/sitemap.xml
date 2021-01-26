@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/aspect_juridique/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/web/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -38,12 +43,27 @@
   </url>
   
   <url>
+    <loc>/aspect_juridique/cnil/</loc>
+    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aspect_juridique/asp_jur/</loc>
+    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/system/hash/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   
   <url>
     <loc>/web/html_php/</loc>
+    <lastmod>2020-02-02T15:14:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aspect_juridique/rgpd/</loc>
     <lastmod>2020-02-02T15:14:53+00:00</lastmod>
   </url>
   

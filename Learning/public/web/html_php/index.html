@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>HTML/CSS - PHP - CTF Formatif - Learning</title>
 <meta name="description" content="">
-<meta name="generator" content="Hugo 0.72.0" />
+<meta name="generator" content="Hugo 0.80.0" />
 <link href="//index.xml" rel="alternate" type="application/rss+xml">
 <link rel="icon" type="image/png" href="images/logo.png" />
 <link rel="canonical" href="/web/html_php/">
@@ -64,13 +64,14 @@ _ Attributs
   Références
    HTML &amp; CSS  HTML
 HyperText Markup Language a fait son apparition dès 1991 lors du lancement du Web. Son rôle est de gérer et organiser le contenu.">
-<meta itemprop="datePublished" content="2020-02-02T15:14:53&#43;00:00" />
-<meta itemprop="dateModified" content="2020-02-02T15:14:53&#43;00:00" />
-<meta itemprop="wordCount" content="1567">
+<meta itemprop="datePublished" content="2020-02-02T15:14:53+00:00" />
+<meta itemprop="dateModified" content="2020-02-02T15:14:53+00:00" />
+<meta itemprop="wordCount" content="1566">
 
 
 
-<meta itemprop="keywords" content="" /></head>
+<meta itemprop="keywords" content="" />
+</head>
 <body><div class="container">
 
 <div style="display:flex;">
@@ -190,37 +191,37 @@ Les balises orphelines sont des balises qui qui n&rsquo;ont as besoin d&rsquo;ê
 <hr>
 <hr>
 <h2 id="php--a-namephpa">PHP  <a name="PHP"></a></h2>
-<p>L&rsquo;<strong>Hypertext Preprocessor</strong> (pour PHP), est un langage de programmation principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n&rsquo;importe quel langage interprété (ex: HTML) de façon locale. PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code et des données pouvant être interprétés et rendus par un Navigateur web.</p>
+<p>L'<strong>Hypertext Preprocessor</strong> (pour PHP), est un langage de programmation principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n&rsquo;importe quel langage interprété (ex: HTML) de façon locale. PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code et des données pouvant être interprétés et rendus par un Navigateur web.</p>
 <p>Sa syntaxe et sa construction ressemblent à celles des langages Java et Perl, sauf que du code PHP peut facilement être mélangé avec du code HTML au sein d&rsquo;un fichier PHP.</p>
 <p>Lorsqu&rsquo;un visiteur demande à consulter une page de site web, son navigateur envoie une requête au serveur HTTP correspondant. Si la page est identifiée comme un script PHP, le serveur appelle l&rsquo;interprète PHP qui va traiter et générer le code final de la page (constitué d&rsquo;HTML ou de XHTML, mais aussi de CSS et de JavaScript). Ce contenu est renvoyé au serveur HTTP, qui l&rsquo;envoie finalement au client. Une étape supplémentaire est souvent ajoutée : celle du dialogue entre PHP et la base de données. Généralement, PHP ouvre une connexion au serveur de SGBD voulu, lui transmet des requêtes et en récupère le résultat, avant de fermer la connexion.</p>
 <h3 id="structure-du-php-a-namestructure-du-phpa">Structure du PHP <a name="Structure-du-PHP"></a></h3>
 <p>Un script PHP peu être placer n&rsquo;importe ou dans le document (souvent HTML). Un script commence par la balise <code>&lt;?php</code> et finit par <code>?&gt;</code>. En PHP les varibles commence par le symbole dollars &ldquo;$&rdquo; suivit du nom de la variable, puis le contenu de celle-ci.</p>
 <p><strong>Syntaxe basique du PHP</strong></p>
 <blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#f92672">html</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-    &lt;<span style="color:#f92672">h1</span>&gt;Premier code PHP&lt;/<span style="color:#f92672">h1</span>&gt;
-    <span style="color:#75715e">&lt;?php</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;!</span><span style="color:#a6e22e">DOCTYPE</span> <span style="color:#a6e22e">html</span><span style="color:#f92672">&gt;</span>
+<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">html</span><span style="color:#f92672">&gt;</span>
+<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">body</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h1</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Premier</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">PHP</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h1</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
       <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>;                 <span style="color:#75715e">// ce texte sera affiché sur le navigateur
 </span><span style="color:#75715e"></span>      
       $prenomBob <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bob&#34;</span>;                 <span style="color:#75715e">// assigne du texte dans la varible : &#34;$prenomBob&#34;
 </span><span style="color:#75715e"></span>      <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Bienvenue &#34;</span> <span style="color:#f92672">.</span> $prenomBob;     <span style="color:#75715e">// affiche le texte &amp; la variable concecutivement
-</span><span style="color:#75715e"></span>    <span style="color:#75715e">?&gt;</span>
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;
-</code></pre></div></blockquote>
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">&lt;/body&gt;
+</span><span style="color:#960050;background-color:#1e0010">&lt;/html&gt;
+</span></code></pre></div></blockquote>
 <p><strong>Fonctions PHP</strong><br>
 Il existe tout un tas de fonctions pré-définis en PHP, mais si l&rsquo;utilisateur souhaite en créer une, voici là syntaxe:</p>
 <blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
   <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">writeMsg</span>() {       <span style="color:#75715e">// crée la fonction
 </span><span style="color:#75715e"></span>   <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Hello world!&#34;</span>;       <span style="color:#75715e">// code here...
 </span><span style="color:#75715e"></span>  }
 
   <span style="color:#a6e22e">writeMsg</span>();                 <span style="color:#75715e">// appelle la fonction
-</span><span style="color:#75715e"></span><span style="color:#75715e">?&gt;</span>
-</code></pre></div></blockquote>
+</span><span style="color:#75715e"></span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div></blockquote>
 <h3 id="formulaires-a-nameformulairesa">Formulaires <a name="Formulaires"></a></h3>
 <p>Voici un formulaire basique HTML avec deux champs à remplir et un bouton pour valider</p>
 <blockquote>
@@ -238,15 +239,15 @@ Il existe tout un tas de fonctions pré-définis en PHP, mais si l&rsquo;utilisa
 </code></pre></div></blockquote>
 <p>Lorsque l&rsquo;on appuie sur le bouton &ldquo;submit&rdquo;, le formulaire va rediriger vers une page PHP: &ldquo;welcome.php&rdquo;</p>
 <blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">&lt;<span style="color:#f92672">html</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">html</span><span style="color:#f92672">&gt;</span>
+<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">body</span><span style="color:#f92672">&gt;</span>
 
-Welcome <span style="color:#75715e">&lt;?php</span> <span style="color:#66d9ef">echo</span> $_POST[<span style="color:#e6db74">&#34;name&#34;</span>]; <span style="color:#75715e">?&gt;</span>&lt;<span style="color:#f92672">br</span>&gt;
-Your email address is: <span style="color:#75715e">&lt;?php</span> <span style="color:#66d9ef">echo</span> $_POST[<span style="color:#e6db74">&#34;email&#34;</span>]; <span style="color:#75715e">?&gt;</span>
-
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;
-</code></pre></div></blockquote>
+<span style="color:#a6e22e">Welcome</span> <span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span> <span style="color:#66d9ef">echo</span> $_POST[<span style="color:#e6db74">&#34;name&#34;</span>]; <span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">&lt;br&gt;
+</span><span style="color:#960050;background-color:#1e0010">Your email address is: &lt;?php echo $_POST[&#34;email&#34;]; ?&gt;
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">&lt;/body&gt;
+</span><span style="color:#960050;background-color:#1e0010">&lt;/html&gt;
+</span></code></pre></div></blockquote>
 <p>Si &ldquo;<code>John</code>&rdquo; est remplie dans le champ &ldquo;name&rdquo; et &ldquo;<code>john.doe@example.com</code>&rdquo; dans &ldquo;email&rdquo;, alors il sera affiché sur la page &ldquo;Welcome.php&rdquo; :</p>
 <blockquote>
 <p><code>Welcome John</code><br>
@@ -268,8 +269,8 @@ La methode GET peut-être dangeureuse si mal utilisé, il est faut impérativeme
 <p>Pour verifier si un champ est vide, afin d&rsquo;afficher les bonnes informations ou non, on utilise la fonction &ldquo;empty()&rdquo;.<br>
 Exemple, ci-dessous:</p>
 <blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;!-- Sera présent dans le code de la page &#34;Welcome.php&#34; --&gt;</span>
-<span style="color:#75715e">&lt;?php</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;!--</span> <span style="color:#a6e22e">Sera</span> <span style="color:#a6e22e">présent</span> <span style="color:#a6e22e">dans</span> <span style="color:#a6e22e">le</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">de</span> <span style="color:#a6e22e">la</span> <span style="color:#a6e22e">page</span> <span style="color:#e6db74">&#34;Welcome.php&#34;</span> <span style="color:#f92672">--&gt;</span>
+<span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
     <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">empty</span>($_POST[<span style="color:#e6db74">&#34;name&#34;</span>])) {      <span style="color:#75715e">// verifie si champ est vide
 </span><span style="color:#75715e"></span>        <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Name is required&#34;</span>; }    <span style="color:#75715e">// si vide alors erreur
 </span><span style="color:#75715e"></span>    <span style="color:#66d9ef">else</span> {                            <span style="color:#75715e">// sinon
@@ -281,8 +282,8 @@ Exemple, ci-dessous:</p>
 </span><span style="color:#75715e"></span>     <span style="color:#66d9ef">else</span> {
         $email <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;email&#34;</span>];     <span style="color:#75715e">// affiche email
 </span><span style="color:#75715e"></span>        <span style="color:#66d9ef">echo</span> $email; }
-<span style="color:#75715e">?&gt;</span>
-</code></pre></div></blockquote>
+<span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div></blockquote>
 <br>
 <hr>
 <hr>
@@ -431,6 +432,16 @@ window.onload = function() {
 <ul class="sub-menu">
 <li class=""><a href="/reseau/ip_address/">Adresses IP</a></li>
 <li class=""><a href="/reseau/wireshark/">Wireshark</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="/aspect_juridique/">Aspect Juridique<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="/aspect_juridique/cnil/">CNIL</a></li>
+<li class=""><a href="/aspect_juridique/asp_jur/">Cybersécurité - Jurdique</a></li>
+<li class=""><a href="/aspect_juridique/rgpd/">RGPD</a></li>
 </ul>
   
 </li>
